@@ -5,7 +5,7 @@ function botChat() {
   nextMessage.sender = "bot";
 
   if (botCount >= botScript.length) {
-    nextMessage.message = goodbye
+    nextMessage.message = "Hi " + chatInput[1] + ". According to your answers, the following helped you last time you where depressed - " + chatInput[2] + ". Please contact " + chatInput[3] + " at your earliest convenience, so they can help with your symptoms. With the help of " + chatInput[3] + " and using your own techniques, try your best to heal yourself before the symptoms get worse. I wish you the vert best in your future endeavours, Sincerely Kuthulu. The Monster Helper to help you figure it out.";
     botSilent = true;
   } else {
     // Set the bot's next message as the next string in the botScript array.

@@ -37,6 +37,10 @@ function userChat() {
   // Ask the bot for another chat.
   lookForChat()
 
+  chatInput[userCount] = nextMessage.message;
+
+  return chatInput[userCount];
+
 }
 
 

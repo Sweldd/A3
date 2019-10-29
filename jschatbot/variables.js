@@ -27,3 +27,6 @@ var sendSpecialChat = [false, ""];
 
 // botSilent is a variable that stores when the bot is done speaking because it has said all of the things in the script.
 var botSilent = false;
+
+
+var chatInput = ["","",""];
