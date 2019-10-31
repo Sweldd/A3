@@ -175,3 +175,23 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.nav-bar {
+  min-height: 60px;
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-link {
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
