@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 40px;
@@ -85,7 +85,7 @@ p {
   width: 980px;
   max-width: 100%;
   margin: auto;
-  text-align: justify;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
 
