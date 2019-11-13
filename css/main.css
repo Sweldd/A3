@@ -214,3 +214,9 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.contents-link {
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
