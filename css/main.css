@@ -83,8 +83,8 @@ p {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 980px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 980px;
   margin: auto;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
